@@ -166,10 +166,11 @@ class Page extends React.Component {
             </Logo>
             <List>
               <ListItem>
-                <Link
+                <a
                   href="https://github.com/houssaineamzil"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Github"
                 >
                   <Icon width="24" hieght="24">
                     <g>
@@ -181,13 +182,14 @@ class Page extends React.Component {
                       ></path>
                     </g>
                   </Icon>
-                </Link>
+                </a>
               </ListItem>
               <ListItem>
-                <Link
+                <a
                   href="https://instagram.com/houssaineamzil18"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Instagram"
                 >
                   <Icon width="24" hieght="24">
                     <g>
@@ -209,13 +211,14 @@ class Page extends React.Component {
                       ></circle>
                     </g>
                   </Icon>
-                </Link>
+                </a>
               </ListItem>
               <ListItem>
-                <Link
+                <a
                   href="https://twitter.com/houssaineamzil"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Twitter"
                 >
                   <Icon width="24" hieght="24">
                     <g>
@@ -225,13 +228,14 @@ class Page extends React.Component {
                       ></path>
                     </g>
                   </Icon>
-                </Link>
+                </a>
               </ListItem>
               <ListItem>
-                <Link
+                <a
                   href="https://dribbble.com/houssaineamzil"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Dribbble"
                 >
                   <Icon width="24" hieght="24">
                     <g>
@@ -243,13 +247,14 @@ class Page extends React.Component {
                       ></path>
                     </g>
                   </Icon>
-                </Link>
+                </a>
               </ListItem>
               <ListItem>
-                <Link
+                <a
                   href="https://behance.net/houssaineamzil"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Behance"
                 >
                   <Icon width="24" hieght="24">
                     <g>
@@ -266,13 +271,14 @@ class Page extends React.Component {
                       </defs>
                     </g>
                   </Icon>
-                </Link>
+                </a>
               </ListItem>
               <ListItem>
-                <Link
+                <a
                   href="https://facebook.com/houssaineamzil.18"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Facebook"
                 >
                   <Icon width="24" hieght="24">
                     <g>
@@ -282,7 +288,7 @@ class Page extends React.Component {
                       />
                     </g>
                   </Icon>
-                </Link>
+                </a>
               </ListItem>
             </List>
           </Container>
