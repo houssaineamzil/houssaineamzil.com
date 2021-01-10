@@ -21,6 +21,9 @@ module.exports = {
 				theme_color: `#272A33`,
 				display: `minimal-ui`,
 				icon: 'src/images/icon.png',
+				icon_options: {
+					purpose: `maskable`,
+				},
 			},
 		},
 		{
