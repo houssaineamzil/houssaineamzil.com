@@ -14,6 +14,12 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
+				name: `Høussaine Amzil`,
+				short_name: `houssaineamzil`,
+				start_url: `/`,
+				background_color: `#FFFFFF`,
+				theme_color: `#272A33`,
+				display: `minimal-ui`,
 				icon: 'src/images/icon.png',
 			},
 		},
