@@ -1,2 +1,5 @@
-# houssaineamzil.com
-My very first personal website, created using React.js, Gatsby.js, and Styled Components
+### Updated personal portfolio page - <a href="https://houssaineamzil.netlify.app/">houssaineamzil.com</a>
+
+Built by Høussaine Amzil using: React, Gatsby, Styled Components & Netlify / heroku
+
+![Image of Høussaine Amzil Landing Page](./static/houssaineamzil.png)
