@@ -9,7 +9,8 @@
 		"gatsby",
 		"styled-components",
 		"personal",
-		"personal website"
+		"personal website",
+		"vercel"
 	],
 	"scripts": {
 		"develop": "gatsby develop",
