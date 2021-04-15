@@ -7,6 +7,12 @@ module.exports = {
 		siteUrl: 'https://houssaineamzil.com',
 	},
 	plugins: [
+		{
+			resolve: 'gatsby-plugin-google-analytics',
+			options: {
+				trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
+			},
+		},
 		'gatsby-plugin-sharp',
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sitemap',
@@ -33,11 +39,5 @@ module.exports = {
 			},
 		},
 		'gatsby-transformer-sharp',
-		{
-			resolve: 'gatsby-plugin-google-analytics',
-			options: {
-				trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
-			},
-		},
 	],
 };
